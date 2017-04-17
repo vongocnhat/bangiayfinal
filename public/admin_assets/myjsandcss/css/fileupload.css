@@ -1,0 +1,20 @@
+.myFile {
+  position: relative;
+}
+.myFile::after {
+	float: right;
+	content: 'Browse';
+	margin-top: -34px;
+	line-height: 34px;
+	background: #337ab7;
+	color: white;
+	padding: 0 10px 0 10px;
+}
+.myFile:hover::after {
+	background: #204d74;
+}
+.myFile input[type="file"] {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}

@@ -1,0 +1,49 @@
+/*date setting*/
+.no-spin::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display:none;
+  -moz-appearance: none;
+}
+
+.panel-body{
+	padding: 10px 0 0 0;
+}
+#page-wrapper{
+	padding: 0;
+}
+.control-group{
+	margin-bottom: 10px;
+	padding-bottom: 18px;
+	border-bottom: solid 1px #ddd;
+}
+.form-actions{
+	margin: 10px;
+}
+.form-actions > input{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.col-lg-12 > a > button{
+	margin-bottom: 10px;
+}
+@media (min-width: 350px) {
+	.control-label{
+		width: 20%;
+	}
+	.controls{
+		margin-left: 3%;
+		width: 77%;
+		float: right;
+	}
+}
+.form-control{
+	width: 233px;
+}
+@media (max-width: 350px) {
+	.form-control{
+	width: 100%;
+}
+}
+.required{
+	color: red;
+}
